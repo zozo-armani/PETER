@@ -1,0 +1,62 @@
+.main{
+    height: 100px;
+    width: 191px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+    font-size: 1em;
+    font-weight: bolder;
+    display: flex;
+}
+.star{
+    width: 45px;
+    height: 20px;
+}
+.jumper{
+    width: 32px;
+    height: 20px;
+}
+
+.sub{
+    width: 57px;
+    height: 20px;
+}
+
+.brown{
+    width: 70px;
+    height: 20px;
+}
+
+.main div{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.over{
+    width: 57px;
+    height: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.prey{
+    width: 120px;
+    height: 20px;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+}
+.two{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 90px;
+}
